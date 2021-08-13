@@ -1,0 +1,37 @@
+#app {
+    margin: 10%;
+}
+
+#prompt {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#spin {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#prompt div {
+    display: inline;
+    font-family: "Lilita One";
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#spin {
+    font-family: "Fredoka One";
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: .3rem;
+    background-color: white;
+    border: 3px solid #8ac926;
+    color: #8ac926;
+    cursor: pointer;
+}
+
+#spin:hover {
+    border: 3px solid #ff4800;
+    color: #ff4800;
+}
