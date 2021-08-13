@@ -1,74 +1,10 @@
-adjectives = [
-    "Stormy",
-    "Messy",
-    "Lucky",
-    "Magic",
-    "Golden",
-    "Terrible",
-    "Imaginary",
-    "Secret",
-    "Lost",
-    "Unlucky",
-    "Secret",
-    "Midnight",
-    "Vampire",
-    "Royal",
-    "Giant",
-    "Alien",
-    "Invisible",
-    "World's Worst",
-    "Martian",
-    "Clockwork",
-    "Haunted",
-    "Silly",
-    "Phantom",
-    "Multi-colored",
-    "Wooly",
-    "Intergalactic",
-    "Ghost",
-    "Fake",
-    "Imaginary",
-    "Wonky",
-    "Shrinking",
-    "Musical"
-]
-
-nouns = [
-    "Skateboard",
-    "Television",
-    "Clock",
-    "Robot",
-    "Monster",
-    "Witch",
-    "Cat",
-    "Kitten",
-    "Puppy",
-    "Octopus",
-    "Cake",
-    "Biscuit",
-    "Teacher",
-    "Trousers",
-    "Birthday",
-    "Holiday",
-    "Panda",
-    "Lunchbox",
-    "Bookcase",
-    "Library",
-    "Pizza",
-    "Elephant",
-    "Spider",
-    "Mouse",
-    "Jellyfish"
-]
 
 colors = [
     "#FB5607",
     "#FF006E",
     "#8338EC",
     "#3A86FF",
-    "#8AC926",
-    "#F20089"
-
+    "#8AC926"
 ]
 
 init = () => {
@@ -91,9 +27,13 @@ newPrompt = () => {
 }
 
 spin = () => {
-    _.times(50, function(i){
+    _.times(25, function(i){
         window.setTimeout(function(){
             newPrompt();
-          }, 20*i);
+          }, 30*i);
     });
 }
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    init();
+});
