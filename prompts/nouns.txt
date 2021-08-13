@@ -29,7 +29,9 @@ Dinner
 Donkey
 Donut
 Dragon
+Drummer
 Duck
+Dungeon
 Egg
 Elephant
 Fairy
@@ -43,6 +45,7 @@ Frog
 Giant
 Gloves
 Goblin
+Gremlin
 Haircut
 Holiday
 Island
@@ -50,6 +53,7 @@ Jellyfish
 Jigsaw
 Kangaroo
 Kingdom
+Kitchen
 Kitten
 Library
 Lobster
@@ -57,6 +61,7 @@ Lunchbox
 Milkshake
 Monkey
 Monster
+Mountain
 Mouse
 Nose
 Octopus
@@ -69,6 +74,7 @@ Penguin
 Pencil case
 Planet
 Potato
+Pudding
 Pumpkin
 Puppy
 Radio
@@ -89,6 +95,7 @@ Submarine
 Teacher
 Teapot
 Teddy
+Tiger
 Treasure
 Trombone
 Trousers

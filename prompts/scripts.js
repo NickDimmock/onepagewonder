@@ -27,10 +27,14 @@ newPrompt = () => {
 }
 
 spin = () => {
-    _.times(25, function(i){
+    document.getElementById("prompt").style.filter = "blur(4px)";
+    _.times(10, function(i){
         window.setTimeout(function(){
             newPrompt();
-          }, 30*i);
+            if(i==9) {
+                document.getElementById("prompt").style.filter = "blur(0px)";
+            }
+        }, 100*i);
     });
 }
 
