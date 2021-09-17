@@ -14,6 +14,17 @@ let questions = [
     "When would it take place?",
     "Where would it take place?"
 ]
+showPrompt = () => {
+    // Show the prompt screen
+    document.getElementById("spinner").style.display="none";
+    document.getElementById("app").style.display="block";
+}
+
+showSpinner = () => {
+    // Show the re-roll spinner screen
+    document.getElementById("app").style.display="none";
+    document.getElementById("spinner").style.display="block";
+}
 
 init = () => {
     document.getElementById("spin").onclick = () => {
@@ -24,18 +35,26 @@ init = () => {
 }
 
 newPrompt = () => {
-    adjColor = _.sample(colors);
-    nounColor = _.sample(colors);
+    let adjColor = _.sample(colors);
+    let nounColor = _.sample(colors);
     do
         nounColor = _.sample(colors);
     while (adjColor == nounColor);
-    myAdj = _.sample(adjectives);
-    myNoun = _.sample(nouns);
+    let myPrompt = getNewPrompt();
+    let myAdj = myPrompt.adjective;
+    let myNoun = myPrompt.noun;
     document.getElementById("adjective").style.color = adjColor;
     document.getElementById("noun").style.color = nounColor;
     document.getElementById("adjective").innerText = myAdj;
     document.getElementById("noun").innerText = myNoun;
-    
+    newQuestions();
+}
+
+getNewPrompt = () => {
+    return {
+        "adjective": _.sample(adjectives),
+        "noun": _.sample(nouns)
+    }
 }
 
 newQuestions = () => {
@@ -45,13 +64,25 @@ newQuestions = () => {
 }
 
 spin = () => {
-    document.getElementById("prompt").style.filter = "blur(4px)";
+    let myPrompt;
+    showSpinner();
     _.times(10, function(i){
         window.setTimeout(function(){
-            newPrompt();
+            myPrompt=getNewPrompt();
+            let adjColor = _.sample(colors);
+            let nounColor = _.sample(colors);
+            do
+                nounColor = _.sample(colors);
+            while (adjColor == nounColor);
+            let myAdj = myPrompt.adjective;
+            let myNoun = myPrompt.noun;
+            document.getElementById("spinnerAdjective").style.color = adjColor;
+            document.getElementById("spinnerNoun").style.color = nounColor;
+            document.getElementById("spinnerAdjective").innerText = myAdj;
+            document.getElementById("spinnerNoun").innerText = myNoun;
             if(i==9) {
-                document.getElementById("prompt").style.filter = "blur(0px)";
-                newQuestions();
+                newPrompt();
+                showPrompt();
             }
         }, 100*i);
     });

@@ -9,6 +9,9 @@ body {
 #prompt {
     text-align: center;
     margin: 1rem;
+    font-family: "Lilita One";
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 #spin {
@@ -19,9 +22,6 @@ body {
 
 #prompt div {
     display: inline;
-    font-family: "Lilita One";
-    font-size: 3rem;
-    text-transform: uppercase;
 }
 
 #spin {
@@ -43,4 +43,19 @@ body {
 #couldyou, #intro {
     text-align: center;
     font-size: 1.2rem;
+}
+
+#spinner {
+    display: none;
+    text-align: center;
+    margin-top: 10rem;
+}
+#spinnerPrompt {
+    font-size: 5rem;
+    /*filter: blur(3px);*/
+}
+#spinnerPrompt div {
+    display: inline;
+    font-family: "Lilita One";
+    text-transform: uppercase;
 }
