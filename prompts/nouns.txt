@@ -1,8 +1,9 @@
 Alien
 Apple
+Ant
 Astronaut
 Banana
-Best friend
+Beetle
 Bicycle
 Birthday
 Biscuit
@@ -11,7 +12,9 @@ Boots
 Breakfast
 Bus
 Cake
+Candle
 Cat
+Cheese
 Chicken
 Circus
 Classroom
@@ -29,6 +32,7 @@ Dinner
 Donkey
 Donut
 Dragon
+Drum
 Drummer
 Duck
 Dungeon
@@ -42,16 +46,23 @@ Flute
 Forest
 Fortress
 Frog
+Garden
+Gerbil
 Giant
 Gloves
+Goat
 Goblin
+Goldfish
 Gremlin
 Haircut
+Hat
+Helicopter
 Holiday
 Island
 Jellyfish
 Jigsaw
 Kangaroo
+King
 Kingdom
 Kitchen
 Kitten
@@ -66,17 +77,24 @@ Mouse
 Nose
 Octopus
 Owl
+Paintbrush
+Painting
 Panda
 Party
+Pencil
 Piano
+Pirate
 Pizza
 Penguin
 Pencil case
 Planet
+Poem
 Potato
 Pudding
 Pumpkin
 Puppy
+Queen
+Rabbit
 Radio
 Rainbow
 Robot
@@ -90,6 +108,7 @@ Shoes
 Skateboard
 Skeleton
 Slippers
+Socks
 Spider
 Submarine
 Teacher
@@ -102,7 +121,9 @@ Trousers
 Trumpet
 Turtle
 TV
+Whale
 Witch
 Wizard
+Wolf
 Worm
 Zoo

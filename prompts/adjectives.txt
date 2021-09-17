@@ -4,14 +4,17 @@ Award-winning
 Backwards
 Bad
 Battery-Powered
+Beautiful
 Bored
 Boring
+Bouncing
 Chilly
 Chocolate
 Clockwork
 Creepy
 Dancing
 Desperate
+Disappearing
 Dizzy
 Double
 Dusty
@@ -25,11 +28,14 @@ Floating
 Forgotten
 Flying
 Frozen
+Furry
 Fussy
 Fuzzy
 Ghost
-Gigantic
 Giddy
+Gigantic
+Giggling
+Glass
 Golden
 Greedy
 Green
@@ -39,6 +45,7 @@ Haunted
 Heavy
 Hidden
 Hissing
+Howling
 Hungry
 Incredible
 Imaginary
@@ -60,6 +67,8 @@ Mouldy
 Multi-coloured
 Musical
 Mysterious
+Mystery
+New
 Nightmare
 Noisy
 Old-fashioned
@@ -71,9 +80,11 @@ Plastic
 Posh
 Prehistoric
 Prize-winning
+Revolting
 Royal
 Rubber
 Seaside
+Scary
 Secret
 Shining
 Shrinking
@@ -82,12 +93,14 @@ Silly
 Silver
 Singing
 Slippery
+Smelly
 Speedy
 Spooky
 Sticky
 Stinky
 Stolen
 Stormy
+Super
 Terrible
 Ticklish
 Tiny
@@ -99,9 +112,10 @@ Unstoppable
 Upside-down
 Vampire
 Whistling
+Windy
 Wobbly
 Wonky
 Wooden
-Wooly
+Woolly
 World's Biggest
 World's Worst

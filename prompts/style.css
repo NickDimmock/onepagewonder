@@ -1,10 +1,14 @@
+body {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
 #app {
-    margin: 10%;
+    margin: 5%;
 }
 
 #prompt {
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 #spin {
@@ -34,4 +38,9 @@
 #spin:hover {
     border: 3px solid #ff4800;
     color: #ff4800;
+}
+
+#couldyou, #intro {
+    text-align: center;
+    font-size: 1.2rem;
 }
