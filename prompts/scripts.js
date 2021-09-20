@@ -12,8 +12,14 @@ let questions = [
     "Who would it be about?",
     "How would it start?",
     "When would it take place?",
-    "Where would it take place?"
+    "Where would it take place?",
+    "Could it be a song?",
+    "Could it be a rap?",
+    "Could it be a film script?",
+    "Would you be in the story?",
+    "Can you draw a picture to go with it?"
 ]
+
 showPrompt = () => {
     // Show the prompt screen
     document.getElementById("spinner").style.display="none";
@@ -83,6 +89,7 @@ spin = () => {
             if(i==9) {
                 newPrompt();
                 showPrompt();
+                document.getElementById('prompt').className = 'pulser';
             }
         }, 100*i);
     });

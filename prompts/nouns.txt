@@ -24,6 +24,7 @@ Computer
 Cottage
 Crab
 Crow
+Dancer
 Dentist
 Diary
 Dice
@@ -39,6 +40,7 @@ Dungeon
 Egg
 Elephant
 Fairy
+Farmer
 Feet
 Fingers
 Fish
@@ -53,6 +55,7 @@ Gloves
 Goat
 Goblin
 Goldfish
+Goose
 Gremlin
 Haircut
 Hat
@@ -68,6 +71,7 @@ Kitchen
 Kitten
 Library
 Lobster
+Lunch
 Lunchbox
 Milkshake
 Monkey

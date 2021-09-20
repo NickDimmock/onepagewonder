@@ -8,13 +8,16 @@ Beautiful
 Bored
 Boring
 Bouncing
+Brand New
 Chilly
 Chocolate
 Clockwork
+Clumsy
 Creepy
 Dancing
 Desperate
 Disappearing
+Disgusting
 Dizzy
 Double
 Dusty
@@ -30,7 +33,6 @@ Flying
 Frozen
 Furry
 Fussy
-Fuzzy
 Ghost
 Giddy
 Gigantic
@@ -40,11 +42,12 @@ Golden
 Greedy
 Green
 Hairy
-Hard-working
 Haunted
 Heavy
 Hidden
 Hissing
+Horrible
+Hovering
 Howling
 Hungry
 Incredible
@@ -58,17 +61,18 @@ Lazy
 Leaping
 Lucky
 Magic
+Magical
 Martian
 Messy
 Midnight
 Miniature
 Missing
 Mouldy
-Multi-coloured
+Multi-Coloured
 Musical
+My Favourite
 Mysterious
 Mystery
-New
 Nightmare
 Noisy
 Old-fashioned
@@ -81,6 +85,7 @@ Posh
 Prehistoric
 Prize-winning
 Revolting
+Rotten
 Royal
 Rubber
 Seaside
@@ -94,6 +99,7 @@ Silver
 Singing
 Slippery
 Smelly
+Space
 Speedy
 Spooky
 Sticky
@@ -109,6 +115,7 @@ Underwater
 Unexpected
 Unlucky
 Unstoppable
+Untidy
 Upside-down
 Vampire
 Whistling
@@ -118,4 +125,5 @@ Wonky
 Wooden
 Woolly
 World's Biggest
+World's Greatest
 World's Worst
