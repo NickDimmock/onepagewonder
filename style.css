@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+
+body {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+#app {
+    margin: 5%;
+}
+
+#prompt {
+    text-align: center;
+    margin: 1rem;
+    font-family: "Lilita One";
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.pulser {
+    transform: scale(1);
+	animation: pulse .8s 1;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+	30% {
+		transform: scale(1.4);
+    }
+	75% {
+		transform: scale(.95);
+	}
+}
+
+#spin {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#prompt div {
+    display: inline;
+}
+
+#spin {
+    font-family: "Fredoka One";
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: .3rem;
+    background-color: white;
+    border: 3px solid #8ac926;
+    color: #8ac926;
+    cursor: pointer;
+}
+
+#spin:hover {
+    border: 3px solid #ff4800;
+    color: #ff4800;
+}
+
+#couldyou, #intro {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#spinner {
+    display: none;
+    text-align: center;
+    margin-top: 10rem;
+}
+#spinnerPrompt {
+    font-size: 5rem;
+    /*filter: blur(3px);*/
+}
+#spinnerPrompt div {
+    display: inline;
+    font-family: "Lilita One";
+    text-transform: uppercase;
+}
+div#quotes {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+}
+div#quotes figure {
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 40rem;
+    background-color: #FFFFE0;
+}
+div#quotes blockquote{
+    margin-inline-start: 0;
+    font-size: 1.2rem;
+}
+div#quotes figcaption {
+    font-size: 1rem;
+    color: #555;
+}
+div#quotes figcaption::before {
+    content: "- ";
+}
